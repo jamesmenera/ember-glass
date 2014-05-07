@@ -16,11 +16,13 @@
   "devDependencies": {
     "bower": "^1.2.8",
     "broccoli": "^0.2.0",
-    "qunitjs": "~1.12.0",
-    "broccoli-dist-es6-module": "^0.1.8",
     "broccoli-cli": "0.0.1",
+    "broccoli-dist-es6-module": "^0.1.8",
     "broccoli-template-compiler": "^1.4.1",
-    "rf-release": "^0.1.2"
+    "nib": "^1.0.2",
+    "qunitjs": "~1.12.0",
+    "rf-release": "^0.1.2",
+    "stylus": "^0.44.0"
   },
   "dependencies": {
     "ic-styled": "^1.1.6"
