@@ -1,0 +1,28 @@
+{
+  "name": "ember-glass",
+  "version": "0.0.1",
+  "authors": [
+    "James Menera <menerajames@gmail.com>",
+    "Sam Clopton <samsinite@gmail.com"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "bower_components",
+    "examples",
+    "node_modules",
+    "test",
+    "tmp",
+    "**/.*",
+    "Brocfile.js",
+    "package.json",
+  ],
+  "dependencies": {
+    "ember": ">=1.3.0 <= 1.5.1",
+    "ic-styled": "~1.1.6"
+  },
+  "devDependencies": {
+    "ember-qunit": "0.1.8",
+    "ember-canary": "http://builds.emberjs.com/canary/ember.js",
+    "ic-styled": "~1.1.6"
+  }
+}

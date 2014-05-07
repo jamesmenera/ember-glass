@@ -1,0 +1,28 @@
+{
+  "name": "ember-glass",
+  "version": "0.0.1",
+  "description": "mobile goodness using emberjs",
+  "main": "dist/cjs/main",
+  "tags": [
+    "ember",
+    "component",
+    "mobile"
+  ],
+  "scripts": {
+    "test": "script/test"
+  },
+  "author": "James Menera <menerajames@gmail.com> and Sam Clopton <samsinite@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "bower": "^1.2.8",
+    "broccoli": "^0.2.0",
+    "qunitjs": "~1.12.0",
+    "broccoli-dist-es6-module": "^0.1.8",
+    "broccoli-cli": "0.0.1",
+    "broccoli-template-compiler": "^1.4.1",
+    "rf-release": "^0.1.2"
+  },
+  "dependencies": {
+    "ic-styled": "^1.1.6"
+  }
+}
