@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 15.0.0, SVG Export Plug-In  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY ns_flows "http://ns.adobe.com/Flows/1.0/">
+]>
+<svg version="1.1"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
+	 x="0px" y="0px" width="50px" height="50px" viewBox="-5 -11.425 50 50"
+	 overflow="visible" enable-background="new -5 -11.425 50 50" xml:space="preserve">
+<defs>
+</defs>
+<path d="M24.645,24.423h-2.777v-2.777v-4.344v-2.777h2.777h2.728v-2.729V9.019h2.777h4.324V4.38c0-0.57-0.465-1.035-1.034-1.035
+	H14.494l-1.181-2.416C13.064,0.418,12.394,0,11.825,0H5.288c-0.569,0-1.24,0.417-1.493,0.928L2.6,3.345H1.035
+	C0.465,3.345,0,3.81,0,4.38v21.721c0,0.569,0.465,1.035,1.035,1.035h26.337v-2.713H24.645z"/>
+<polygon points="34.494,11.796 30.149,11.796 30.149,17.302 24.645,17.302 24.645,21.646 30.149,21.646 30.149,27.15 34.494,27.15 
+	34.494,21.646 40,21.646 40,17.302 34.494,17.302 "/>
+</svg>

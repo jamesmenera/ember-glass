@@ -1,0 +1,14 @@
+[id|="eg"] h1,
+[class|="eg"] h1,
+[id|="eg"] h2,
+[class|="eg"] h2,
+[id|="eg"] h3,
+[class|="eg"] h3,
+[id|="eg"] h4,
+[class|="eg"] h4,
+[id|="eg"] h5,
+[class|="eg"] h5,
+[id|="eg"] h6,
+[class|="eg"] h6 {
+  font-weight: 100;
+}

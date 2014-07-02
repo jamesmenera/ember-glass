@@ -1,0 +1,192 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+[id|="eg"] h1,
+[class|="eg"] h1,
+[id|="eg"] h2,
+[class|="eg"] h2,
+[id|="eg"] h3,
+[class|="eg"] h3,
+[id|="eg"] h4,
+[class|="eg"] h4,
+[id|="eg"] h5,
+[class|="eg"] h5,
+[id|="eg"] h6,
+[class|="eg"] h6 {
+  font-weight: 100;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: heading-color;
+}
+.eg-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0,0,0,0.7);
+}
+[visible] {
+  display: none;
+}
+[class|=eg] {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body {
+  font: 16px "Avenir", "Helvetica", sans-serif;
+  background-image: -webkit-radial-gradient(80% 10%, circle, #3d4d8d, transparent), -webkit-radial-gradient(80% 50%, circle, #00a0fa, transparent), -webkit-radial-gradient(20% 80%, 40em 40em, #322ac5, transparent), -webkit-radial-gradient(20% 30%, circle, #00c2ff, transparent);
+  background-image: -moz-radial-gradient(80% 10%, circle, #3d4d8d, transparent), -moz-radial-gradient(80% 50%, circle, #00a0fa, transparent), -moz-radial-gradient(20% 80%, 40em 40em, #322ac5, transparent), -moz-radial-gradient(20% 30%, circle, #00c2ff, transparent);
+  background-image: -o-radial-gradient(80% 10%, circle, #3d4d8d, transparent), -o-radial-gradient(80% 50%, circle, #00a0fa, transparent), -o-radial-gradient(20% 80%, 40em 40em, #322ac5, transparent), -o-radial-gradient(20% 30%, circle, #00c2ff, transparent);
+  background-image: -ms-radial-gradient(80% 10%, circle, #3d4d8d, transparent), -ms-radial-gradient(80% 50%, circle, #00a0fa, transparent), -ms-radial-gradient(20% 80%, 40em 40em, #322ac5, transparent), -ms-radial-gradient(20% 30%, circle, #00c2ff, transparent);
+  background-image: radial-gradient(80% 10%, circle, #3d4d8d, transparent), radial-gradient(80% 50%, circle, #00a0fa, transparent), radial-gradient(20% 80%, 40em 40em, #322ac5, transparent), radial-gradient(20% 30%, circle, #00c2ff, transparent);
+  background-color: #b46767;
+  position: relative;
+}
+.eg-viewport,
+.eg-route {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.eg-navbar {
+  position: absolute top left;
+  width: 100%;
+  background-color: rgba(255,255,255,0.8);
+  padding: 10px 0;
+}
+.eg-navbar h1 {
+  font-size: 24px;
+  text-align: center;
+}
+.eg-icon-mask {
+  mask-position: center center;
+  mask-repeat: no-repeat;
+  mask-size: 100% 100%;
+}

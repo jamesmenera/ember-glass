@@ -1,0 +1,36 @@
+@import 'reset'
+@import 'nib'
+@import 'theme'
+@import 'defaults'
+@import 'features/*'
+
+[class|=eg]
+  box-sizing: border-box
+  
++prefix-classes('eg-')
+  .body
+    font: font
+    //blue background-image: radial-gradient(80% 10%, circle, #3D4D8D, transparent), radial-gradient(80% 50%, circle, #00A0FA, transparent), radial-gradient(20% 80%, 40em 40em, #322AC5, transparent), radial-gradient(20% 30%, circle, #00C2FF, transparent)
+    background-image: radial-gradient(80% 0%, circle, #FFCB6E, transparent), radial-gradient(110% 50%, circle, #F83232, transparent), radial-gradient(0% 80%, 40em 40em, #BE3B2F, transparent), radial-gradient(20% 30%, circle, #DB0303, transparent)
+    background-color: #B46767
+    position: relative
+    
+  .viewport, .route
+    width: 100%
+    height: 100%
+    position: relative
+
+  .navbar
+    position: absolute top left
+    width: 100%
+    background-color: rgba(255, 255, 255, .8)
+    padding: 10px 0
+    
+    h1
+      font-size: 24px
+      text-align: center
+    
+  .icon-mask
+    mask-position: center center
+    mask-repeat: no-repeat
+    mask-size: 100% 100%

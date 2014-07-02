@@ -1,0 +1,55 @@
+<! DOCTYPE html >
+<html>
+<head>
+  <title>Ember-Glass</title>
+  <link href='http://fonts.googleapis.com/css?family=Lato:400,300,700,900,100' rel='stylesheet' type='text/css'/>
+  <link href='css/ember-glass.css' rel='stylesheet' type='text/css'/>
+  <link href='css/demo.css' rel='stylesheet' type='text/css'/>
+  <link href='css/lib/animate.css' rel='stylesheet' type='text/css'/>
+  
+  <script src="js/libs/jquery-1.10.2.js"></script>
+  <script src="js/libs/handlebars-1.1.2.js"></script>
+  <script src="js/libs/ember-1.5.1.js"></script>
+  <script src="js/app.js"></script>
+</head>
+<body class="eg-body" glass="body">
+  <script type="text/x-handlebars" id="_appMenu">
+    
+  </script>
+  
+  <script type="text/x-handlebars" id="application">
+    <div class="eg-overlay" visible="false" glass="overlay"></div>
+    {{ outlet }}
+  </script>
+  
+  <script type="text/x-handlebars" id="index">
+    <section class="eg-viewport" glass="viewport">
+      <div class="eg-route" glass="route">
+        <nav class="eg-navbar" current="current" glass="navbar">
+          <a class="eg-drawer" glass="drawer">
+            <span class="eg-icon-mask" glass="icon-mask"></span>
+          </a>
+        </nav>
+        <article class="eg-interface" glass="interface">
+          <h1>
+            <span id="ember_js" class="eg-icon-mask" glass="icon_mask" alt="Ember Glass"></span>
+          </h1>
+        </article>
+        <footer class="eg-toolbar" glass="toolbar">
+          
+        </footer>
+      </div>
+    </section>
+  </script>
+  
+  <script type="text/x-handlebars" id="login">
+    <form>
+      <h2>Log in!</h2>
+      <input type="username" placeholder="Username or Email"/>
+      <input type="password" placeholder="Password"/>
+      
+      <button>Login!</button>
+    </form>
+  </script>
+</body>
+</html>
